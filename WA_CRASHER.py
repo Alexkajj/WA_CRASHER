@@ -19,7 +19,7 @@
 #SOFTWARE.
 ###################################
 #  X PHANTOM (PH4N70M)            #
-#Project : WA_CRASHER             #
+#Project : BY UNKNOWN            #
 #Type    : Whatsapp - Crasher     #
 ###################################
 import os
@@ -78,9 +78,9 @@ def main():
 	for i in range (crash):
 		print()
 		print(f"{Y}[✓] Sending Now\n")
-		print(f"{G}[{Y}+{G}]{M}Applying 40sec delay...")
+		print(f"{G}[{Y}+{G}]{M}Applying 10sec delay...")
 		link1 = os.system(link)
-		time.sleep(40)
+		time.sleep(10)
 		if link1 == 0:
 			print(f"{G} Successful")
 			pass
